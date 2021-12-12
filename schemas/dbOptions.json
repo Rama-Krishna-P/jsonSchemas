@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$schema": "https://github.com/Rama-Krishna-P/jsonschemas/blob/main/schemas/dbOptions.json",
   "type": "object",
   "properties": {
     "DbOptions": {
