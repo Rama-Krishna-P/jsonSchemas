@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "DbOptions": {
+      "type": "object",
+      "properties": {
+        "DataSource": {
+          "type": "string"
+        },
+        "Port": {
+          "type": "integer"
+        },
+        "Database": {
+          "type": "string"
+        },
+        "Username": {
+          "type": "string"
+        },
+        "Password": {
+          "type": "string"
+        },
+        "AutoMigrate": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "DataSource",
+        "Port",
+        "Database",
+        "Username",
+        "Password",
+        "AutoMigrate"
+      ]
+    }
+  },
+  "required": [
+    "DbOptions"
+  ]
+}
