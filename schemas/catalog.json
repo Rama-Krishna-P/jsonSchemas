@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/schema-catalog.json",
+  "version": 1.0,
+  "schemas": [
+    {
+      "name": "Application configuration file",
+      "description": "Application configuration file",
+      "fileMatch": [
+        "appsettings.json",
+        "appsettings.*.json"
+      ],
+      "url": "https://github.com/Rama-Krishna-P/jsonschemas/blob/main/schemas/dbOptions.json"
+    },
+  ]
+}
